@@ -2,7 +2,7 @@ The script run_analysis.R wil create two DataFrame:
 - MeanStd
 - MeanByActivitySubject
 
-NOTE: It is required to have the Plyr loaded in order to run the script run_analysis.R
+NOTE: It is required to have the library(dplyr) loaded in order to run the script run_analysis.R
 
 The DataFrame includes the following :
 =========================================
