@@ -116,3 +116,5 @@ MeanStd[, 3:68] <- sapply(MeanStd[, 3:68], as.numeric)
 MeanByActivitySubject <- aggregate(MeanStd[-c(1:2)],by=list(MeanStd$Subject, MeanStd$Activity),FUN=mean)
 colnames(MeanByActivitySubject)[colnames(MeanByActivitySubject)=="Group.1"] <- "Subject"
 colnames(MeanByActivitySubject)[MeanByActivitySubject(newtest)=="Group.2"] <- "Activity"
+
+MeanByActivitySubject
